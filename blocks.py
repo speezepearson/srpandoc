@@ -1,7 +1,6 @@
 #!/Users/spencerpearson/.virtualenv/python3.4.1/bin/python
 
 import hashlib
-from pandocfilters import Para, Image
 
 class CodeBlock:
     def __init__(self, content, ident=None, classes=set(), attrs={}, format=None, meta=None):
